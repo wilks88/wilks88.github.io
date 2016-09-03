@@ -65,3 +65,4 @@ For Part 1:
 For Part 2:
 * used getElementById or getElementsByClassName
 * changed changePizzaSizes to greatly improve drawing performance
+* reduced the number of background pizzas to a resonable number. You don't want too much of a good thing.
