@@ -53,3 +53,15 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
+
+### User Changes
+For Part 1:
+* used async on JS where appropriate
+* used print media query for print stylesheet
+* optimized images
+* inlined css and js
+* minified where applicable
+
+For Part 2:
+* used getElementById or getElementsByClassName
+* changed changePizzaSizes to greatly improve drawing performance
