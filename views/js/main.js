@@ -447,7 +447,7 @@ var resizePizzas = function(size) {
     return dx;
   }
 
-  // changePizzaSizes with this method greatly improves performance by over 100ms!
+  // Handles changing pizza sizes via slider
   function changePizzaSizes(size) {
     var sizeContainer = document.getElementsByClassName("randomPizzaContainer");
     var sizeDx = determineDx(sizeContainer[0], size);
@@ -522,6 +522,7 @@ function updatePositions() {
 window.addEventListener('scroll', updatePositions);
 
 // Generates the sliding pizzas when the page loads.
+// Like your body, too many pizzas can slow things down!
 document.addEventListener('DOMContentLoaded', function() {
   var cols = 8;
   var s = 256;
