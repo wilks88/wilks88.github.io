@@ -58,7 +58,7 @@ The portfolio was built on Twitter's <a href="http://getbootstrap.com/">Bootstra
 * <a href="http://getbootstrap.com/css/">Bootstrap's CSS Classes</a>
 * <a href="http://getbootstrap.com/components/">Bootstrap's Components</a>
 
-### Web Dev Changes
+### Optimization Changes
 For Part 1:
 * used async on JS where appropriate
 * used print media query for print stylesheet
@@ -67,6 +67,7 @@ For Part 1:
 * minified where applicable
 
 For Part 2:
-* used getElementById or getElementsByClassName
-* changed changePizzaSizes to greatly improve drawing performance
-* reduced the number of background pizzas to a resonable number. You don't want too much of a good thing.
+* used getElementById and/or getElementsByClassName
+* changed changePizzaSizes to greatly improve rendering performance
+* created a local var to store document.body.scrollTop outside of loop (line 506)
+* reduced the number of background pizzas to a resonable number (determined dynamically based on screen size). You don't want too much of a good thing.
